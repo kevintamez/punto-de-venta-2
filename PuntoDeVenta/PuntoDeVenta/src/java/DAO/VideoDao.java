@@ -5,12 +5,16 @@
  */
 package DAO;
 
+import Model.Video;
+
 /**
  *
  * @author kevin
  */
 public class VideoDao {
-    string nombre;
-    string path;
-    int id;
+    
+    public static void insert(Video v){
+        
+    }
+    
 }
