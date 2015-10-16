@@ -1,0 +1,19 @@
+get tipo
+
+todos los ervers que recivan archivos se configuran el WEB.xml
+
+<multipart-config>
+max file-size>-1
+max request size>-1
+<file-size-threshold>52428800</file-size-threshold>
+</multipart-config>
+
+--Necesario para subir archivos
+form post enctype="multipart/form-data"
+input file.
+
+servlet "upload"
+inputstream
+
+en la base de datos no se guarda el tipo Blob del video se guarda la DIRECCIÓn 
+
