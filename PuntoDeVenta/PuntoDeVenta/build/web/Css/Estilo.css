@@ -33,7 +33,7 @@ and open the template in the editor.
     margin: 5px;
     margin-right: 50px;
     width: 90%;
-    border:2px solid gray;
+    border:2px solid red;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px grey;
@@ -78,11 +78,7 @@ ul,ol{
 .nav li a:hover{
     background-color: firebrick;
 }
-<<<<<<< HEAD
 
-=======
-/*Tabla*/
->>>>>>> 4de24f0aa7e34bb9627b8190c47a050dbef723ae
 
 table, td, th {
 
